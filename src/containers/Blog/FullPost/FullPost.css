@@ -1,0 +1,59 @@
+.FullPost {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    text-align: center;
+    
+}
+
+
+
+.Edit label {
+    display: block;
+    color: grey;
+}
+
+button {
+    padding: 0.5rem;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    color: red;
+}
+
+
+
+button.Delete {
+    color: red;
+    font-weight: bold;
+    border-color: red;
+}
+
+
+button.Delete:active {
+    color: white;
+    border-color: red;
+    background-color: red;
+}
+.btn-primary {
+    background-color: #0647c9;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: 0 5px;
+  }
+  
+  .btn-primary:hover{
+      color: white;
+  }
+  .customContainer {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+  }
